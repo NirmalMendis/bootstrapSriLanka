@@ -22,7 +22,7 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "imagemin": "imagemin img/* --out-dir='dist/img'",
+    "imagemin": "imagemin img/* --out-dir=\"dist/img\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "clean": "rimraf dist",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin Beaches.html -d dist --htmlmin -o dist/Beaches.html && usemin Nature.html -d dist --htmlmin -o dist/Nature.html && usemin Wildlife.html -d dist --htmlmin -o dist/Wildlife.html",
