@@ -8,23 +8,148 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
     <title>Explore Sri Lanka</title>
 </head>
 
 <body>
-     
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Sri Lanka</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Wildlife.html"> Wild Life</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Beaches.html"> Beaches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Nature.html"> Nature</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+           <div class="row">
+                <div class="col-12">
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="img/carousel1.jpg" alt="beach">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="img/carousel2.jpg" alt="nature">
+                               
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="img/carousel3.jpg" alt="wildlife">
+                                
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a> 
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a> 
+                    </div>
+                </div>
+           </div> 
+        <div class="row">
+            <div class="col">
+                <div class="col-12">
+                    <div class="card card-body bg-light">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Explore Sri Lanka</p>
+                            <footer class="blockquote-footer">
+                                <cite title="Source Title">Sri Lanka, is a beautiful island country situated in the Indian Ocean surrounded by amazing beaches and sunny climate.
+                                    Sri Lanka has a collection of the most beautiful works of nature including golden sand beaches, snow white waterfalls, huge animal sanctuaries and many more.
+                                    Make sure to add Sri Lanka on your to-visit list and you will not regret it! Explore our website to learn more about this amazing country's nature.</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-md-4">
+                <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/wildlife.jpg" alt="Alberto Somayya">
+            </div>
+            <div class="col-12 col-md-8">       
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Wildlife</h2>
+                        <p class="d-none d-md-block">
+                            Wildlife in Sri Lanka is an entirely different class of beauty and thrill.
+                            Sri Lanka's wildlife sanctuaries are a class of protected areas providing shelter for many species of widlife.
+                         
+                        </p>
+                        <a href="./Wildlife.html">See more</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-md-4">
+                <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/beach.jpg" alt="Alberto Somayya">
+            </div>
+            <div class="col-12 col-md-8">       
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Beaches</h2>
+                        <p class="d-none d-md-block">
+                            Surrounded by the Indian Ocean, Sri Lanka has the best beaches and amazing view all aroung the country.    
+                            </p>
+                            <a href="./Beaches.html">See more</a> 
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-md-4">
+                <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/nature.jpg" alt="Alberto Somayya">
+            </div>
+            <div class="col-12 col-md-8">       
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Nature</h2>
+                        <p class="d-none d-md-block">
+                            Sri Lanka has a very beautiful and attractive nature with the best scenaries.
+                            It comprises with waterfalls, rivers , mountains and many more.    
+                            </p>
+                            <a href="./Nature.html">See more</a> 
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
 
     <footer class="footer">
         
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    
+    <!-- endbuild -->
 </body>
 
 </html>
